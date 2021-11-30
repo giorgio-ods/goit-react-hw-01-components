@@ -1,0 +1,31 @@
+.FriendsListStyle {
+  display: flex;
+  padding: 40px;
+  list-style: none;
+  justify-content: center;
+
+  background-color: black;
+  color: aqua;
+}
+
+.FriendItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80px;
+  min-width: 80px;
+  padding: 20px;
+  border: 1px solid aqua;
+}
+
+.FriendOffline {
+  visibility: hidden;
+  /* font-size: 0; */
+}
+
+.FriendOnline {
+  color: green;
+  font-weight: bold;
+  font-size: 15px;
+}

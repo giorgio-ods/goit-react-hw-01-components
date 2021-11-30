@@ -1,0 +1,29 @@
+.Profile {
+  color: aqua;
+  background-color: black;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+.Name {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.Stats {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Item {
+  margin-right: 10px;
+}

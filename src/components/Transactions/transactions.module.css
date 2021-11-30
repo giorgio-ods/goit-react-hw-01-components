@@ -1,0 +1,22 @@
+.Table {
+  /* border: 1px solid black;  */
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 600px;
+  padding: 20px;
+}
+
+.TableHeadRow {
+  border: 1px solid black;
+  text-align: center;
+  height: 30px;
+}
+
+/* .TableBody {
+  border: 1px solid black;
+} */
+
+.TableRow {
+  border: 1px solid black;
+  text-align: center;
+}

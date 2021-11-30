@@ -1,0 +1,32 @@
+.Statistics {
+  text-align: center;
+  list-style: none;
+}
+
+.Title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.StatList {
+  display: flex;
+  justify-content: center;
+
+  list-style: none;
+}
+
+.Item {
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  min-width: 80px;
+  border: 1px black solid;
+  background-color: aqua;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.Label {
+  font-weight: bold;
+}
